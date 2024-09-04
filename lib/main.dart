@@ -10,7 +10,6 @@ import 'package:provider/provider.dart';                 // new
 
 import 'app_state.dart';                                 // new
 import 'home_page.dart';
-
 void main() {
   // Modify from here...
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,6 +20,7 @@ void main() {
   ));
   // ...to here.
 }
+
 // Add GoRouter configuration outside the App class
 final _router = GoRouter(
   routes: [
